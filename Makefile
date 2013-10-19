@@ -43,6 +43,10 @@ spec:
 vendor: 
 	@$(MAKE) -C vendor --no-print-directory
 
+.PHONY: uart
+uart: 
+	@minicom -o
+
 
 %.hex: %.elf
 	$(OBJCOPY) -O ihex $< $@
