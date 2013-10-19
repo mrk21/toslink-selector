@@ -1,0 +1,17 @@
+/gen
+.DS_Store
+._*
+*.o
+*.d
+*.a
+*.elf
+*.hex
+*.out
+
+/vendor/*
+!/vendor/CMSISv2p00_LPC11xx
+/vendor/CMSISv2p00_LPC11xx/gen
+
+*.s#*
+*.b#*
+
